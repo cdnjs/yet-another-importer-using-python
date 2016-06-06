@@ -2,9 +2,13 @@
 
 Now only support NPM package
 
+Environment setting:
+
+You should open importer.py and set your own cdnjs_path and minify_path variables
+
 usage:
 
-importer.py [-h] --lib-name LIB_NAME --git-url GIT_URL [--npm-pkg NPM_PKG] --lib-author LIB_AUTHOR --issue-num ISSUE_NUM
+python importer.py [-h] --lib-name LIB_NAME --git-url GIT_URL [--npm-pkg NPM_PKG] --lib-author LIB_AUTHOR --issue-num ISSUE_NUM
 
 cdnjs importer
 
